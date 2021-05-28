@@ -52,6 +52,8 @@ const states = {
 
 ////////////
 // WebSocket
+const express = require('express');
+const app = express();
 const WebSocket = require("ws");
 const WS_PORT = process.env.WS_PORT || 8081;
 const wsServer = new WebSocket.Server(
