@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "audio-speaker": "^1.5.1",
     "express": "^4.17.1",
     "express-ws": "^4.0.0",
     "package.json": "^2.0.1",
